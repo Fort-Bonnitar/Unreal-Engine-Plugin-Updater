@@ -75,7 +75,7 @@ Ensure the following prerequisites are met before using the tool:
 
 ## Convert to Executable
 
-To convert your Python script into an executable (.exe) file, follow these steps:
+To convert the Python script into an executable (.exe) file, follow these steps:
 
 ### 1. Install PyInstaller
 
@@ -87,7 +87,7 @@ pip install pyinstaller
 
 ### 2. Navigate to Your Script's Directory
 
-Open a terminal and navigate to the directory where your Python script (`gui.py`) is located.
+Open a terminal and navigate to the directory where the Python script (`gui.py`) is located.
 
 ### 3. Run PyInstaller
 
@@ -105,25 +105,24 @@ After the process is complete, navigate to the `dist` directory:
 cd dist
 ```
 
-You should find the executable file with the same name as your script but without the `.py` extension.
+You should find the executable file with the same name as the script but without the `.py` extension.
 
 ### 5. Test the Executable
 
 Run the generated executable to test if it works as expected:
 
 ```bash
-./your_script_name.exe
+./gui.exe
 ```
 
 ### 6. Run the Executable
 
 You can now run the standalone executable (`GUI.exe`) to others without requiring them to install Python or any dependencies.
 
-Remember to include any necessary assets (like images) in the same directory as the executable if your script relies on them.
+Remember to include any necessary assets (like images) in the same directory as the executable if the script relies on them.
 
 ### Note:
 
-- Make sure that your Python script has no hard-coded paths that are specific to your development environment.
 - The generated executable may trigger antivirus warnings because it's an executable created from Python script. This is common and usually harmless.
 
 These instructions assume you are using a Unix-like environment (Linux or macOS). If you are using Windows, the commands may be slightly different, and you can run them in the Command Prompt.
